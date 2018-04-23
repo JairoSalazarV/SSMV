@@ -50,5 +50,5 @@ title("FFT, Inverted Shift");
 E = ifft2(D);
 subplot(plotRows, plotCols, i++);
 imagesc(abs(E));
-title("FFT, Recupered Image");
+title("FFT, Recovered Image");
 
